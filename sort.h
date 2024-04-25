@@ -38,9 +38,9 @@ void array_print(const int *array, size_t size);
 void list_print(const listint_t *list);
 
 /* Sorting algoritms */
-void bubble_sort(int *array, size_t size);
-void insertion_sort_list(listint_t **list);
-void selection_sort(int *array, size_t size);
-void quick_sort(int *array, size_t size);
+void bubble(int *array, size_t size);
+void insertion(listint_t **list);
+void selection(int *array, size_t size);
+void quick(int *array, size_t size);
 
 #endif /* SORT_H */
