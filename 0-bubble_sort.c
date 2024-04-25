@@ -15,11 +15,11 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * bubble - sorts and arrya of integers ascendingly
+ * bubble_sort - sorts and arrya of integers ascendingly
  * @array: array of integers to sort
  * @size: size of the array
  */
-void bubble(int *array, size_t size)
+void bubble_sort(int *array, size_t size)
 {
 	size_t element, len = size;
 	bool bubble = false;
